@@ -1,0 +1,13 @@
+Podrías almacenar las imágenes en una lista o un arreglo, y luego cuando quieras eliminar una imagen en particular, simplemente la eliminarías de esa lista o arreglo utilizando el método remove() o removeAll() según corresponda.
+
+Por ejemplo, si tienes una lista de imágenes llamada listaImagenes, y quieres eliminar la imagen en la posición i, podrías hacer lo siguiente:
+
+csharp
+Copy code
+listaImagenes.remove(i);
+Si quieres eliminar todas las imágenes de la lista, podrías utilizar el método removeAll() de la siguiente manera:
+
+scss
+Copy code
+listaImagenes.removeAll(listaImagenes);
+Luego, cuando vayas a dibujar las imágenes, simplemente recorrerías la lista y dibujarías cada imagen que aún esté presente en la misma.
